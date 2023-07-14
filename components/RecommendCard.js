@@ -1,4 +1,4 @@
-import CustomLink from '@/components/CustomLink'
+import CustomLink from '/components/CustomLink'
 
 const RecommendCard = ({ title, description, href, tags, showLink = true }) =>
   showLink ? (

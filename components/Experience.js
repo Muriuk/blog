@@ -1,4 +1,4 @@
-import Link from '@/components/Link'
+import Link from '/components/Link'
 
 const Experience = ({ title, company, location, range, url, text1, text2, text3 }) => {
   return (

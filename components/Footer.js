@@ -1,8 +1,8 @@
-import { currentDayName } from '@/lib/utils/dateUtils'
+import { currentDayName } from '/lib/utils/dateUtils'
 import Link from './Link'
 import NowPlayingFooter from './NowPlayingFooter'
-import SocialIcon from '@/components/social-icons'
-import siteMetadata from '@/data/siteMetadata'
+import SocialIcon from '/components/social-icons'
+import siteMetadata from '/data/siteMetadata'
 
 export default function Footer() {
   return (
