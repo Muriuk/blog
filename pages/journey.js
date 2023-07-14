@@ -1,6 +1,6 @@
-import siteMetadata from '@/data/siteMetadata'
-import { PageSEO } from '@/components/SEO'
-import Timeline from '@/components/Timeline'
+import siteMetadata from '/data/siteMetadata'
+import { PageSEO } from '/components/SEO'
+import Timeline from '/components/Timeline'
 import { motion } from 'framer-motion'
 
 export default function Journey() {

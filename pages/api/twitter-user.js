@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { getUser } from '@/lib/twitter'
+import { getUser } from '/lib/twitter'
 
 export default async (_, res) => {
   const response = await getUser('meaty_pirate')

@@ -1,10 +1,10 @@
-import siteMetadata from '@/data/siteMetadata'
-import movieData from '@/data/movieData'
-import RecommendCard from '@/components/RecommendCard'
-import BookRecommendCard from '@/components/BookRecommendCard'
-import { PageSEO } from '@/components/SEO'
-import { getCurrentlyReading, getReviews } from '@/lib/goodreads'
-import NowReading from '@/components/NowReading'
+import siteMetadata from '/data/siteMetadata'
+import movieData from '/data/movieData'
+import RecommendCard from '/components/RecommendCard'
+import BookRecommendCard from '/components/BookRecommendCard'
+import { PageSEO } from '/components/SEO'
+import { getCurrentlyReading, getReviews } from '/lib/goodreads'
+import NowReading from '/components/NowReading'
 
 export async function getStaticProps() {
   const reviews = await getReviews({ limit: 10 })

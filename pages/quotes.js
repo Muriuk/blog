@@ -1,6 +1,6 @@
-import siteMetadata from '@/data/siteMetadata'
-import { PageSEO } from '@/components/SEO'
-import { quotes } from '@/data/quotesData'
+import siteMetadata from '/data/siteMetadata'
+import { PageSEO } from '/components/SEO'
+import { quotes } from '/data/quotesData'
 import { motion } from 'framer-motion'
 
 export default function Quotes() {

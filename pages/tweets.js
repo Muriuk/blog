@@ -1,7 +1,7 @@
-import siteMetadata from '@/data/siteMetadata'
-import { PageSEO } from '@/components/SEO'
-import Tweet from '@/components/Tweet'
-import { getTweets } from '@/lib/twitter'
+import siteMetadata from '/data/siteMetadata'
+import { PageSEO } from '/components/SEO'
+import Tweet from '/components/Tweet'
+import { getTweets } from '/lib/twitter'
 
 export async function getStaticProps() {
   const tweets = await getTweets([

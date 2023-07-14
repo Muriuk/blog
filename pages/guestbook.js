@@ -1,7 +1,7 @@
 import prisma from 'lib/prisma'
-import Guestbook from '@/components/Guestbook'
-import siteMetadata from '@/data/siteMetadata'
-import { PageSEO } from '@/components/SEO'
+import Guestbook from '/components/Guestbook'
+import siteMetadata from '/data/siteMetadata'
+import { PageSEO } from '/components/SEO'
 
 export default function GuestbookPage({ fallbackData }) {
   return (

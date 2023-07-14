@@ -1,7 +1,7 @@
-import siteMetadata from '@/data/siteMetadata'
-import { PageSEO } from '@/components/SEO'
-import usesData from '@/data/usesData'
-import Link from '@/components/Link'
+import siteMetadata from '/data/siteMetadata'
+import { PageSEO } from '/components/SEO'
+import usesData from '/data/usesData'
+import Link from '/components/Link'
 
 export default function Uses() {
   return (
