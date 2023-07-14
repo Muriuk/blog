@@ -1,8 +1,8 @@
-import Image from '@/components/Image'
-import { PageSEO } from '@/components/SEO'
-import Link from '@/components/Link'
-import Experience from '@/components/Experience'
-import experienceData from '@/data/experienceData'
+import Image from '/components/Image'
+import { PageSEO } from '/components/SEO'
+import Link from '/components/Link'
+import Experience from '/components/Experience'
+import experienceData from '/data/experienceData'
 import { RoughNotation } from 'react-rough-notation'
 import { AiOutlineTwitter } from 'react-icons/ai'
 
