@@ -1,4 +1,4 @@
-import CustomLink from '@/components/CustomLink'
+import CustomLink from '/components/CustomLink'
 import { AiFillStar } from 'react-icons/ai'
 import { FiExternalLink } from 'react-icons/fi'
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ClapButton } from '@lyket/react'
+import { ClapButton } from 'lyket/react'
 import ScrollTop from '/components/ScrollTop'
 
 const ScrollTopAndComment = () => {

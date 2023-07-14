@@ -4,10 +4,10 @@ import { format } from 'date-fns'
 import { signIn, useSession } from 'next-auth/react'
 import useSWR, { useSWRConfig } from 'swr'
 
-import fetcher from '@/lib/fetcher'
-import SuccessMessage from '@/components/SuccessMessage'
-import ErrorMessage from '@/components/ErrorMessage'
-import LoadingSpinner from '@/components/LoadingSpinner'
+import fetcher from '/lib/fetcher'
+import SuccessMessage from '/components/SuccessMessage'
+import ErrorMessage from '/components/ErrorMessage'
+import LoadingSpinner from '/components/LoadingSpinner'
 import { FaGoogle, FaGithub } from 'react-icons/fa'
 
 function GuestbookEntry({ entry, user }) {
