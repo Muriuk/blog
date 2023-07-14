@@ -1,4 +1,4 @@
-import { Dialog, Combobox, Transition } from 'headlessui/react'
+import { Dialog, Combobox, Transition } from '@headlessui/react'
 import { useState, useEffect, Fragment } from 'react'
 import { HiSearch } from 'react-icons/hi'
 import { useRouter } from 'next/router'
