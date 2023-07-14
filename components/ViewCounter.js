@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import useSWR from 'swr-old'
-import fetcher from 'lib/fetcher'
+import fetcher from '/lib/fetcher'
 
 export default function ViewCounter({ slug, className, blogPage = false }) {
   let { data } = useSWR(`/api/views/${slug}`, fetcher)
